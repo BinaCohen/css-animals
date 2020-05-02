@@ -1,0 +1,224 @@
+﻿body {
+    justify-content: center;
+    align-items: center;
+    background: #222;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+}
+/*.hello {
+    height: 250px;
+    width: 175px;
+    position: relative;
+    transition: .4s ease-in-out;
+    border-radius: 5px 15px 15px 5px;
+    transform-origin: left center 0px;
+    display: inline-block;
+    margin: 30px;
+    perspective: 800px;
+}*/
+h1{
+
+}
+
+
+
+.window {
+    z-index: 10;
+    transition: .5s linear;
+    transform-style: preserve-3d;
+    transform-origin: left center 0px;
+    padding: 0px;
+    margin: 0px;
+    width: 100px;
+    height: 194px;
+    background-color: #ce3e7c;
+    border-radius: 5px 15px 15px 5px;
+    text-align: center;
+    border: solid;
+    border-color: #ce3e7c;
+    background: linear-gradient(to bottom, #ce3e7c 9px, rgba(0, 0, 0, 0.2) 1px);
+    background-size: 100% 10px;
+}
+.hello {
+    transition: .4s ease-in-out;
+    transform-origin: left center 0px;
+    perspective: 500px
+}
+
+.table {
+    position: absolute;
+}
+    .table:hover {
+        background: none;
+      
+    }
+        .table:hover .window {
+            transform: rotateY(-115deg);
+            z-index: 999;
+            box-shadow: 20px 10px 50px rgba(0, 0, 0, 0.2);
+        }
+        .table:hover .insiedWindow {
+
+        }
+        .table:hover .window2 {
+            transform: rotateY(115deg);
+            z-index: 999;
+            box-shadow: 20px 10px 50px rgba(0, 0, 0, 0.2);
+        }
+.window2 {
+    width: 100px;
+    height: 194px;
+    z-index: 10;
+    transition: .5s linear;
+    transform-style: preserve-3d;
+    transform-origin: right center 0px;
+    padding: 0px;
+    margin: 0px;
+    border: solid;
+    border-color: #ce3e7c;
+    background-color: #ce3e7c;
+    border-radius: 15px 5px 5px 15px;
+    text-align: center;
+    background: linear-gradient(to bottom, #ce3e7c 9px, rgba(0, 0, 0, 0.2) 1px);
+    background-size: 100% 10px;
+}
+.head {
+    width:100px;
+    height:100px;
+    background-color: lightpink;
+    border-radius:50px 50px;
+}
+
+
+@-webkit-keyframes spin {
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+/*.inInside {
+    margin:34%;
+    width: 5px;
+    height: 5px;
+    background-color:black;
+    border-radius:50%;
+
+}*/
+.eyes {
+    -webkit-animation: spin 3s linear infinite;
+    animation: spin 3s linear infinite;
+    -webkit-animation-delay: -3s;
+    animation-delay: -3s;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: antiquewhite;
+    /*border-top-left-radius: 50%;
+    border-top-right-radius: 50%;*/
+    border-radius: 50px 50px;
+    border: 1px solid black;
+}
+.insideEye {
+
+    margin: 15%;
+    width: 9px;
+    height: 9px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.nose {
+    width: 45px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: white;
+}
+.ears {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: lightpink;
+}
+.head1 {
+    width: 100px;
+    height: 100px;
+    background-color:darkgray;
+    border-radius: 5px 5px;
+}
+
+.eyes1 {
+    border: 1px solid black;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color:antiquewhite;
+    border-radius: 50px 50px;
+}
+
+.nose1 {
+    width: 55px;
+    height: 25px;
+    border-radius: 50px;
+    background-color:beige;
+}
+
+.ears1 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: darkgray;
+}
+.head2 {
+    width: 130px;
+    height: 100px;
+    background-color: #b13131;
+    border-radius: 50px 50px;
+}
+
+.nose2 {
+    width: 45px;
+    height: 35px;
+    border-radius: 50px;
+    background-color:white;
+}
+
+.ears2 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    background-color:#b13131;
+}
+.head3 {
+    width: 100px;
+    height: 100px;
+    background-color: #488f51;
+    border-radius: 5px 5px;
+}
+
+.nose3 {
+    width: 55px;
+    height: 25px;
+    border-radius: 50px;
+    background-color: beige;
+}
+
+.ears3 {
+    width: 35px;
+    height: 35px;
+      border-radius: 5px 5px;
+    background-color:#488f51;
+}
+.happy {
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    background: #222;
+    border: 5px;
+    border-color: black;
+    border-radius: 5px 5px 5px 5px;
+    display: inline-block;
+    overflow: hidden;
+}
