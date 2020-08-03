@@ -1,8 +1,10 @@
 # css-animals
-css Animals was written out of curiosity, especially out of a hobby of CSS art.
+I am curious and love art
 
-enjoy reading!
+And I found a way to show my art skills in the development world
 
 Attached is a link to view
+
+Enjoy!
 
 https://bina-css-animals.herokuapp.com/
