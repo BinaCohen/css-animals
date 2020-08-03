@@ -1,10 +1,10 @@
 # css-animals
-I am curious and love art
+I am curious by nature, and love art.
 
-And I found a way to show my art skills in the development world
+I found a way to show my art skills in the world of software development.
 
-Attached is a link to view
-
-Enjoy!
+ Attached a link.
+ 
+ Enjoy!
 
 https://bina-css-animals.herokuapp.com/
